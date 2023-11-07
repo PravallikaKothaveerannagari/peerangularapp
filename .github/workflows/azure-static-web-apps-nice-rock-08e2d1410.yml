@@ -19,8 +19,6 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: install peer dependencies
-        run: npm install --legacy-peer-deps
         env:
           NPM_CONFIG_LEGACY_PEER_DEPS: false
       - name: Build And Deploy

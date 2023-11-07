@@ -36,6 +36,6 @@
     "typescript": "~5.0.2"
   },
   "peerDependencies": {
-    "@angular/core": "^7.0.0"
+    "@angular/core": "16.2.12"
   }
 }

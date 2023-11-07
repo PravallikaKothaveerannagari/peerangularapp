@@ -22,7 +22,7 @@ jobs:
       - name: install peer dependencies
         run: npm install --legacy-peer-deps
         env:
-          NPM_CONFIG_LEGACY_PEER_DEPS: true
+          NPM_CONFIG_LEGACY_PEER_DEPS: false
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
